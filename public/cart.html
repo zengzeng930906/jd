@@ -1,0 +1,56 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>首页 - 购物车</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" href="css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="css/weigit.css" />
+	<link rel="stylesheet" type="text/css" href="css/cart.css" />
+</head>
+<body>
+	<div class="goodsTitle">
+		<label>全部商品 <i id="allProducts">4</i></label>
+	</div>
+	<div class="cartHeader">
+		<ul>
+			<li class="liML_1">
+				<input type="checkbox" class="AllSelectBtn" checked/>
+				<label>全选</label>
+			</li>
+			<li class="liML_2">商品</li>
+			<li class="liML_3">单价</li>
+			<li class="liML_4">数量</li>
+			<li class="liML_5">小计</li>
+			<li class="liML_6">操作</li>
+		</ul>
+	</div>
+	<div class="cartBodyWrap">
+	</div>
+	<div class="cartFooter">
+		<ul>
+			<li class="li_1">
+				<input type="checkbox" class="AllSelectBtn" checked/>
+				<label>全选</label>
+			</li>
+			<li class="li_2">删除选中的商品</li>
+			<li class="li_3">已选中<span id="choosedGoodsNum">4</span>件商品</li>
+			<li class="li_4">
+				<label>
+					<p class="p1">总价：</p>
+					<p class="p2">￥<b id="cartTotalMoney">2357.90</b></p>
+				</label>
+				<!-- <span>
+					<p class="p1">已节省：</p>
+					<p class="p2">-￥23</p>
+				</span> -->
+			</li>
+			<li class="li_5">去结算</li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/config.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/cart.js"></script>
+</body>
+</html>

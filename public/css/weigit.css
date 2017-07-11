@@ -1,0 +1,21 @@
+.fl{float: left;}
+.fr{float: right;}
+.mt10{margin-top: 10px!important;}
+/* 用伪类after来清除浮动 */
+.cle:after{
+	content:" ";
+	/*这里要用display:block来把伪类设置为块级元素*/
+	display: block; 
+	height: 0;
+	clear:both;
+	/* 用来隐藏属性content的内容*/
+	/*visibility: hidden; */
+}
+.zoomIcon{
+	background: url('../images/weigit/icon_7.jpg') no-repeat;
+	width: 33px;height: 33px;
+	display: block;
+	position: absolute;
+	right: -1px;bottom: -1px;
+	z-index: 7;
+}

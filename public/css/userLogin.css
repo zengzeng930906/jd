@@ -1,0 +1,101 @@
+body{background: #fff;}
+/* loginDiv */
+.loginDiv{
+	width:346px;height: 362px;float: right;
+	background: #fff;margin:40px 16px 0 0;position: relative;
+}
+.loginDiv .title{
+	width:100%;height:54px;margin-bottom: 33px;
+	border-bottom: 1px solid #959595;
+}
+.loginDiv .title label{
+	width: 170px;height: 54px;line-height: 54px;
+	text-align: center;float: left;
+	font-size: 16px;color: #959595;
+}
+.loginDiv .title i{
+	float: left;width:1px;height: 18px;background: #959595;
+	font-size: 1px;overflow: hidden;margin-top: 20px;
+}
+.loginDiv .title span{
+	width: 170px;height: 54px;line-height: 54px;
+	text-align: center;float: right;
+	font-size: 16px;color: #D21A1C;font-weight: bold;
+}
+/* enterDiv */
+.enterDiv{
+	width: 304px;height: 38px;border:1px solid #959595;
+	margin:0 auto 20px auto;position: relative;
+}
+.enterDiv label{
+	width:38px;height:38px;float: left;border-right:1px solid #959595;
+	background-image: url('../images/weigit/icon_10.jpg');
+	background-color: #EBEBEB;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.enterDiv input{
+	float: left;border:0;background: #fff;
+	width:255px;height: 34px;padding-left: 5px;
+	font-size: 14px;
+}
+.enterDiv i{
+	display: block;width: 15px;height: 15px;
+	background: url('../images/weigit/icon_11.jpg') no-repeat;
+	position: absolute;top: 10px;right: 10px;
+	cursor: pointer;
+}
+/* autoLoginBtn */
+.autoLoginBtn{
+	width:306px;height: 20px;margin:0 auto;
+}
+.autoLoginBtn input{
+	float: left;margin-right: 8px;
+}
+.autoLoginBtn label{
+	float: left;font-size: 12px;cursor: pointer;
+}
+.autoLoginBtn a{
+	float: right;color: #363636;text-decoration: none;
+}
+.autoLoginBtn a:hover{
+	text-decoration: underline;
+}
+/* loginBtn */
+.loginBtn{
+	width:302px;height: 32px;margin:22px auto 32px auto;
+	background: #D21A1C;border:1px solid #AA1314;
+	color: #fff;font-size: 18px;font-weight: normal;
+	text-align: center;line-height: 32px;
+	cursor: pointer;
+}
+/* loginFooter */
+.loginFooter{
+	width:100%;height: 50px;position: absolute;left: 0;bottom:0;
+	background: #FAFAFA;border-top: 1px solid #EDEDED;
+}
+.loginFooter label{
+	float: left;padding:0 14px 0 23px;height: 20px;
+	font-size: 12px;color: #363636;line-height: 18px;
+	margin:16px 0 0 21px;
+	background: url('../images/weigit/icon_12.png') no-repeat left top;
+}
+.loginFooter span{
+	float: left;padding:0 0 0 24px;height: 20px;
+	font-size: 12px;color: #363636;line-height: 18px;
+	margin:16px 0 0 11px;
+	background: url('../images/weigit/icon_12.png') no-repeat left -21px;
+}
+.loginFooter i{
+	width:1px;height: 11px;float: left;
+	background: #BAABBA;margin-top: 20px;
+}
+.loginFooter a{
+	float: right;padding-left: 21px;text-decoration: none;
+	background: url('../images/weigit/icon_12.png') no-repeat left -42px;
+	color: #8B0D0D;margin:18px 21px 0 0;line-height: 17px;
+	height: 20px;
+}
+.loginFooter a:hover{
+	text-decoration: underline;
+}

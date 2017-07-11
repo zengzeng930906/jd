@@ -1,0 +1,60 @@
+/* layout.css */
+
+body{background: #F6F6F6;}
+
+/* index Page */
+/* header */
+.header{
+	width:1192px;height: 169px;margin:0 auto;
+	position: relative;
+}
+
+/* wrapMain */
+.wrapMain{
+	width: 1192px;height: 480px;margin:0 auto;
+	background: #fff;
+}
+
+/* productList */
+.productList{
+	width:1192px;margin:0 auto;
+}
+
+/* productDetail Page */
+.wrapProduct{
+	width: 1192px;height: 620px;margin:0 auto;
+	background: #fff;
+}
+
+/* userAddressList page */
+.userAddressWrap{
+	width:1018px;margin:0 auto;
+}
+.userAddressWrap .userMain{
+	width:100px;float: left;
+}
+.userAddressWrap .addDelivery{
+	width:830px;float: right;
+	background: #fff;
+	margin:14px 14px 0 0;
+	padding:20px;
+}
+
+/* userLogin */
+.userLoginTitle{
+	width:1006px;height: 80px;margin:0 auto;
+	background-color: #fff;
+	background-image: url('../images/loginLogo.jpg');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.userLoginMain{
+	width:100%;height: 476px;
+	background-color: #FFBC01;
+}
+.loginContent{
+	width:1006px;height: 476px;margin:0 auto;
+	background-image: url('../images/temp/temp13.jpg');
+	background-position: left center;
+	background-repeat: no-repeat;
+}

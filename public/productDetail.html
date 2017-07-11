@@ -1,0 +1,91 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>首页 - 产品详情页</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" href="css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="css/weigit.css" />
+	<link rel="stylesheet" type="text/css" href="css/productDetail.css" />
+</head>
+<body>
+	<div class="wrapProduct">
+		<!-- 左边的大小图 -->
+		<div class="imgListDiv">
+			<div class="bigImg" id="bigImg">
+				<img id="bigImgId" src="images/temp/temp11.jpg" />
+				<i class="zoomIcon"></i>
+				<div id="mousemoveDivId"></div>
+			</div>
+			<div id="zoomImgId" class="zoomImg"></div>
+			<div class="smalImgDiv">
+				<label id="leftBtnId" class="fl"></label>
+				<ul id="imgSmallListId">
+					<!-- <li><img src="images/temp/temp10.jpg" /></li>
+					<li><img src="images/temp/temp10.jpg" /></li>
+					<li><img src="images/temp/temp10.jpg" /></li> -->
+				</ul>
+				<span id="rightBtnId" class="fr"></span>
+			</div>
+		</div>
+
+		<!-- 右边的产品信息 -->
+		<div class="rightDiv">
+			<div class="productTitle">
+				<h1 id="h1id"></h1>
+				<h2 id="h2id"></h2>
+				<h3 id="h3id"></h3>
+			</div>
+
+			<!-- 省市县切换菜单 start -->
+			<div class="switchAddressMenu">
+				<label>配送至</label>
+				<div class="addressTitle" id="addressTitle">
+					<span>请选择您的地址</span>
+					<i></i>
+				</div>
+			</div>
+			<div class="addressWrap" id="addressWrap">
+				<p>选择新地址</p>
+				<ul>
+					<li id="tabA" class="clickLi">请选择省</li>
+					<li id="tabB">请选择市</li>
+					<li id="tabC">请选择区</li>
+				</ul>
+				<div id="provinceId" class="addressItem">
+					<!-- <p>洪山区</p>
+					<p>蔡甸区</p>
+					<p>青山区</p>
+					<p>江夏区</p>
+					<p>汉阳区</p>
+					<p>汉南区</p>
+					<p>江岸区</p>
+					<p>黄陂区</p>
+					<p>江汉区</p>
+					<p>武昌区</p>
+					<p>经济开发区</p> -->
+					</div>
+				<div id="cityId" class="addressItem"></div>
+				<div id="areaId" class="addressItem"></div>
+			</div>
+			<!-- 省市县切换菜单 end -->
+
+			<!-- 产品数量，按钮 -->
+			<div class="chooseBtns">
+				<div class="wrapInput">
+					<input type="text" class="buyNum" value=1 />
+					<input type="button" class="btnAdd" value="+" />
+					<input type="button" class="btnReduce" value="-" />
+				</div>
+				<a href="cart.html" target="_blank" class="gotoShoppingCartBtn">加入购物车</a>
+			</div>
+			<!-- 产品数量，按钮 end -->
+
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/productDetail.js"></script>

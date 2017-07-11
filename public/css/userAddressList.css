@@ -1,0 +1,83 @@
+body{
+	background: #F5F5F5;
+}
+.userMain{
+	margin:20px 0 0 24px;
+	font-size: 14px;
+}
+.userMain dt{
+	color: #333;
+	font-weight: bold;
+}
+.userMain dd{
+	color: #777;
+	height: 24px;
+	line-height: 24px;
+	text-align: left;
+}
+.userMain dd.red{
+	color: #E4393C;
+}
+/* addAddress */
+.addAddressBtn{
+	width:100%;height: 29px;clear: both;
+}
+.addAddressBtn input.aab{
+width:112px;height: 27px;margin-right: 15px;
+background: url('../images/weigit/bg.jpg') repeat-x;
+border:1px solid #BFD6AF;border-radius: 2px;
+color: #333;font-size: 12px;float: left;
+}
+.addAddressBtn p{
+	float: left;color: #999;line-height: 29px;
+	height: 29px;
+}
+.addAddressBtn p i{
+	color: #71B247;font-style: normal;
+	padding:0 2px;
+}
+/* addressEditWrap */
+.addressEditWrap{
+	width:100%;padding:8px 0;
+	border:2px solid #E6E6E6;
+	margin:10px 0;position: relative;
+}
+/* 使用一键购，编辑 */
+.EditWrapBtn{
+	position: absolute;right: 27px;bottom:15px;
+}
+.EditWrapBtn a{
+	color: #005EA7;text-decoration: none;
+}
+/* EditWrapTitle */
+.EditWrapTitle{
+	width: 170px;float: left;clear:both;margin:0 0 13px 10px;
+}
+.EditWrapTitle label{
+	float: left;padding-right: 12px;font-size: 14px;
+	color: #666;font-weight: bold;
+}
+.EditWrapTitle i{
+	float: left;cursor: pointer;
+	background: url('../images/weigit/icon_9.jpg') no-repeat;
+	width:13px;height: 13px;margin: 3px 30px 0 0;
+}
+.EditWrapTitle span{
+	float: left;background: #FFAA45;color: #fff;
+	padding:0 2px;margin: 2px 0 0 0;
+}
+/* EditWrapContent */
+.EditWrapContent{
+	width: 770px;float: left;margin:0 0 0 20px;
+}
+.EditWrapContent li{
+	width: 100%;height: 24px;
+}
+.EditWrapContent li label{
+	width: 70px;float: left;text-align: right;
+	color: #999;font-size: 12px;
+}
+.EditWrapContent li span{
+	width: auto;float: left;text-align: left;
+	color: #545454;font-size: 12px;
+}

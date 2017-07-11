@@ -1,0 +1,76 @@
+.userInfoTitle{
+	float: left;clear: both;height: 23px;
+	line-height: 23px;
+	margin:0 0 0 20px;
+}
+.userInfoTitle label,.userInfoTitle span, .userInfoTitle p{
+	float: left;color: #999;font-size: 14px;
+	font-weight: normal;
+	margin-right: 22px;cursor: pointer;
+}
+.userInfoTitle .red{
+	color: #E4393C;
+	border-bottom: 2px solid #E4393C;
+}
+/* usrinfoEdit */
+.usrinfoEdit{
+	width: 550px;float: left;clear: both;
+}
+.usrinfoEdit ul{margin-top: 30px;}
+.usrinfoEdit li{
+	clear: both;margin-bottom: 30px;
+}
+.usrinfoEdit li:after{
+	content:" ";
+	/*这里要用display:block来把伪类设置为块级元素*/
+	display: block; 
+	height: 0;
+	clear:both;
+	/* 用来隐藏属性content的内容*/
+	/*visibility: hidden; */
+}
+.usrinfoEdit li label{
+	float: left;width: 90px;text-align: right;
+	height: 20px;color: #666;font-size: 14px;
+}
+.usrinfoEdit li span{
+	float: left;font-size: 14px;
+}
+.usrinfoEdit li label i{color: #f00;font-style: normal;}
+.usrinfoEdit li a.editA{
+	float: left;margin:0 5px 0 30px;
+	color: #005EA7;text-decoration: none;
+}
+.usrinfoEdit li p{color: #999;float: left;}
+.usrinfoEdit li input.nickname{
+	float: left;width:150px;height: 28px;
+	border:1px solid #999;margin-top: -5px;
+	padding-left: 5px;
+}
+.usrinfoEdit li input[type="radio"]{
+	float: left;
+}
+.usrinfoEdit li label.labelfor{
+	float: left;width: auto;margin-right: 12px;
+}
+.usrinfoEdit li select.liSel{
+	float: left;width: 68px;border: 1px solid #ccc;
+}
+.usrinfoEdit li span.birthday{
+	padding: 0 10px;
+}
+/* interest */
+.interest{
+	width: 373px;float: left;
+}
+.interest h1{
+	color: #666;font-size: 14px;display: block;
+}
+.interest li{
+	height: 34px;padding: 0 9px;line-height: 34px;
+	float: left;border: 1px solid #CFCFCF;
+	margin: 0 10px 10px 0;clear: none;cursor: pointer;
+}
+.interest li:hover{
+	background: #ccc;color: #fff;
+}
